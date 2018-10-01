@@ -1980,9 +1980,13 @@ button {
 
 .nav__list_item {
   display: inline-block;
-  margin-right: 3.59vw; }
+  margin-right: 3.59vw;
+  margin-top: 3vh; }
   .nav__list_item:last-child {
     margin-right: 0; }
+  @media (max-width: 950px) {
+    .nav__list_item {
+      display: grid; } }
 
 .nav__list_link {
   text-decoration: none;
@@ -2627,7 +2631,8 @@ button {
   display: block;
   margin-bottom: -0.65vw;
   font-size: 1.6em;
-  font-weight: 400; }
+  font-weight: 400;
+  margin-top: 3em; }
   .wf-playfairdisplay-n7-active .main_company_info_text_line.last {
     font-family: 'Playfair Display', Helvetica, Arial, sans-serif; }
   @media (min-width: 1601px) {
@@ -2876,7 +2881,7 @@ button {
   margin: auto;
   height: 60px;
   width: 41%;
-  background-color: #f9e1d5;
+  background-image: linear-gradient(120deg, transparent 55%, #d5edf9);
   text-align: center; }
   @media (max-width: 500px) {
     .main_case_title_box {
@@ -3778,6 +3783,14 @@ button {
   -ms-transform: none;
   -o-transform: none;
   transform: none; }
+.about_menu_active .overlay__img_box,
+.about_menu_active .overlay__emoji_box {
+  text-align: center; }
+.overlay__info_text--about_text {
+  margin-top: 1.5em; }
+@media (max-width: 700px) {
+  .about_menu_active .overlay__img_box img {
+    width: 100%; } }
 
 .overlay .nav {
   opacity: 0;
@@ -4229,19 +4242,24 @@ button {
     -moz-transition-delay: 1150ms;
     -o-transition-delay: 1150ms;
     transition-delay: 1150ms; }
+  .highlight-green {
+    background-image: linear-gradient(-120deg, transparent 55%, #47ff87); }
+  .highlight-pink {
+    background-image: linear-gradient(-60deg, transparent 55%, #ee9eff); }
+  .highlight-last {
+    background-image: linear-gradient(120deg, transparent 45%, #ff4); }
+  .delay--max-cta {
+    margin-top: 20px; }
+  a.button {
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 700;
+    padding: .6em;
+    border: 1px solid #333333;
+    border-radius: 5px; }
+  .main_screen_content {
+    background: url(../img/bg/avatar.svg) no-repeat 80% 50% / contain; }
+      @media (max-width: 950px) { .main_screen_content {
+           background: rgb(255,255,255); } }
 
-.highlight-green {
-  background-image: linear-gradient(-120deg, transparent 55%, #47ff87);
-}
 
-.highlight-pink {
-  background-image: linear-gradient(-60deg, transparent 55%, #ee9eff);
-}
-
-.highlight-last {
-  background-image: linear-gradient(120deg, transparent 45%, #ff4);
-}
-
-.delay--max-cta {
-  margin-top: 20px;
-}

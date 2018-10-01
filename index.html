@@ -24,16 +24,16 @@
         </nav>
         <div class="menu__box">
           <ul class="menu__list">
-            <li class="menu__item"><a href="#" data-overlay-type="bottom_menu_active" data-hash="contacts" class="menu__link js-open-overlay js-set-history">Let's Chat</a></li>
-            <li class="nav__list_item animation-slide-top-fade-in"><a href="#" data-overlay-type="top_menu_active" data-menu-type="about_menu_active" data-hash="about" class="nav__list_link js-open-overlay js-set-history js-render-me">About</a></li>
-            <li class="nav__list_item animation-slide-top-fade-in"><a href="#" data-overlay-type="top_menu_active" data-menu-type="projects_menu_active" data-hash="projects" class="nav__list_link js-open-overlay js-set-history js-render-me">Projects</a></li>
-            <li class="nav__list_item animation-slide-top-fade-in"><a href="https://www.medium.com/@rdimascio/" target="_blank" data-overlay-type="top_menu_active" data-menu-type="chat_menu_active" data-hash="blog" class="nav__list_link">Blog</a></li>
+            <!-- <li class="menu__item"><a href="cv.pdf" target="_blank" data-overlay-type="bottom_menu_active" data-hash="contacts" class="menu__link js-open-overlay js-set-history">Download my CV</a></li> -->
+            <li class="nav__list_item animation-slide-top-fade-in"><a href="#" data-overlay-type="top_menu_active" data-menu-type="about_menu_active" data-hash="about" class="nav__list_link js-open-overlay js-set-history js-render-me">about</a></li>
+            <li class="nav__list_item animation-slide-top-fade-in"><a href="#" data-overlay-type="top_menu_active" data-menu-type="projects_menu_active" data-hash="projects" class="nav__list_link js-open-overlay js-set-history js-render-me">portfolio</a></li>
+            <li class="nav__list_item animation-slide-top-fade-in"><a href="https://www.medium.com/@rdimascio/" target="_blank" data-overlay-type="top_menu_active" data-menu-type="chat_menu_active" data-hash="blog" class="nav__list_link">blog</a></li>
+            <li class="nav__list_item animation-slide-top-fade-in"><a href="mailto:ryan@dimasc.io" target="_blank" data-overlay-type="top_menu_active" data-menu-type="chat_menu_active" class="nav__list_link">contact</a></li>
           </ul>
           <ul class="menu__list menu__list--social">
             <li class="footer__social_item animation-slide-bottom-fade-in"><a href="https://linkedin.com/in/ryandimascio/" target="_blank" class="footer__social_link footer__social_link--linkedin"></a></li>
             <li class="footer__social_item animation-slide-bottom-fade-in"><a href="https://twitter.com/dimasc_io/" target="_blank" class="footer__social_link footer__social_link--twitter"></a></li>
             <li class="footer__social_item animation-slide-bottom-fade-in"><a href="https://github.com/rdimascio/" target="_blank" class="footer__social_link footer__social_link--github"></a></li>
-            <li class="footer__social_item animation-slide-bottom-fade-in"><a href="https://medium.com/@rdimascio/" target="_blank" class="footer__social_link footer__social_link--medium"></a></li>
           </ul>
         </div>
       </section>
@@ -41,34 +41,44 @@
       <section class="curtain js-projects-curtain js-curtain"></section>
       <section class="projects_screen overlay">
         <nav class="nav"><a href="#" class="nav__logo_link"><span class="nav__logo_letter">d</span></a>
-          <button type="button" data-hash="" class="nav__control_btn nav__control_btn--close js-close-overlay js-set-history"><span class="nav__close_btn_text">Back</span></button>
+          <button type="button" data-hash="" class="nav__control_btn nav__control_btn--close js-close-overlay js-set-history"><span class="nav__close_btn_text">back</span></button>
         </nav>
-        <div class="projects__container"><a href="#" target="_blank" data-case-index="4" data-hash="san-francisco" class="js-render-me js-set-history project__link js-open-case"><span class="project__title">San Francisco</span>
-            <div style="background-image:url(img/pictures/cases/sf/0_thumb_1.jpg)" class="project__pic"></div></a><a href="#" target="_blank" data-case-index="11" data-hash="paris" class="js-render-me js-set-history project__link js-open-case"><span class="project__title">Paris</span>
-            <div style="background-image:url(img/pictures/cases/paris/00_thumb.jpg)" class="project__pic"></div></a></div>
+        <div class="projects__container"><a href="#" target="_blank" data-case-index="4" data-hash="san-francisco" class="js-render-me js-set-history project__link js-open-case"><span class="project__title">web hacks</span>
+            <div style="background-image:url(img/pictures/cases/web-hacks/web-hacks--home.png)" class="project__pic"></div></a><a href="#" target="_blank" data-case-index="11" data-hash="paris" class="js-render-me js-set-history project__link js-open-case"><span class="project__title">brand swag</span>
+            <div style="background-image:url(img/pictures/cases/brand-swag/brand-swag--home.png)" class="project__pic"></div></a></div>
       </section>
+
+      <!-- About -->
       <section class="about_screen overlay">
         <nav class="nav"><a href="#" class="nav__logo_link"><span class="nav__logo_letter nav__logo_letter--white">d</span></a>
-          <button type="button" data-hash="" class="nav__control_btn nav__control_btn--close nav__control_btn--cream js-close-overlay js-set-history"><span class="nav__close_btn_text nav__close_btn_text--white">Back</span></button>
+          <button type="button" data-hash="" class="nav__control_btn nav__control_btn--close nav__control_btn--cream js-close-overlay js-set-history"><span class="nav__close_btn_text nav__close_btn_text--white">back</span></button>
         </nav>
         <div class="overlay_content_box js-custom-scrollbar">
+
+          
           <div class="overlay__info_box">
-            <h2 class="overlay__info_title">About</h2>
-            <div class="overlay__info_text overlay__info_text--about_text">Since 2008, we've helped some of the world's best<br>companies launch products, make announcements<br>& build awareness among some of the hardest<br>consumers in the world to reach.</div>
+
+            <div class="overlay__img_box">
+              <img src="img/bg/about-ryan.svg" />
+            </div>
+            <!-- <h2 class="overlay__info_title">About</h2> -->
+            <div class="overlay__info_text overlay__info_text--about_text">
+            I live in Anaheim Hills, CA with my three loves: Kayce, our dog, Max, and our baby, who's due in March 2019. I would not be the person I am today without them, and I thank the universe every day for bringing them into my life. We spend most of our free time together, watching RedBox movies, going to Dodger games, and goofing off - and I wouldn't want it any other way.<br><br>I currently work as a freelance UI/UX Designer and Frontend Developer for a number of clients, ranging from startups to corporations, small teams to friends and family. What started as curiosity has grown into a passion to build unique experiences. I approach technology with an element of humanity and simplicity, and make a point to keep the user in mind whenever I build anything for the web.</div>
           </div>
           <div class="overlay__info_box overlay__info_box--left">
-            <h2 class="overlay__info_title">Services</h2>
-            <div class="overlay__info_text">Art direction<br>Branding<br>Logotype<br>Web-design<br>Graphic design</div>
+            <h2 class="overlay__info_title">I build with:</h2>
+            <div class="overlay__info_text">Vanilla HTML/CSS/JS<br>SCSS/SASS/Gulp<br>Gatsby/React<br>Hugo/Jekyll<br>WordPress<br>Ghost CMS</br>Shopify</div>
           </div>
           <div class="overlay__info_box overlay__info_box--right">
-            <h2 class="overlay__info_title">Clients</h2>
-            <div class="overlay__info_text">Braun<br>Adidas<br>Nike<br>Reebok<br>HTC</div>
+            <h2 class="overlay__info_title">I'm learning:</h2>
+            <div class="overlay__info_text">Node.js<br>Express<br>Webpack<br>Ruby on Rails<br>iOS/Swift</div>
           </div>
         </div>
       </section>
-      <section class="contacts_screen overlay">
+
+<!--       <section class="contacts_screen overlay">
         <nav class="nav"><a href="#" class="nav__logo_link"><span class="nav__logo_letter nav__logo_letter--white">d</span></a>
-          <button type="button" data-hash="" class="nav__control_btn nav__control_btn--close nav__control_btn--cream js-close-overlay js-set-history"><span class="nav__close_btn_text nav__close_btn_text--white">Back</span></button>
+          <button type="button" data-hash="" class="nav__control_btn nav__control_btn--close nav__control_btn--cream js-close-overlay js-set-history"><span class="nav__close_btn_text nav__close_btn_text--white">back</span></button>
         </nav>
         <div class="overlay_content_box js-custom-scrollbar">
           <div class="overlay__info_box overlay__info_box--left">
@@ -82,22 +92,25 @@
             <h2 class="overlay__info_title">Contacts</h2><a href="mailto:contactmail@brauntheme.com?subject=Bonjour!" class="overlay__info_text">contactmail@brauntheme.com</a>
           </div>
         </div>
-      </section>
+      </section> -->
       <section class="main_screen">
         <nav class="nav">
           <a href="/" class="nav__logo_link animation-slide-top-fade-in">
-            <!-- <span class="nav__logo_letter">d</span> -->
-            <span class="nav__logo_image"><img src="" width="50" height="50" /></span>
+            <span class="nav__logo_letter">d</span>
+            <!-- <span class="nav__logo_image"><img src="" width="50" height="50" /></span> -->
           </a>
           <button type="button" class="nav__burger js-open-menu"></button>
           <ul class="nav__list">
-            <li class="nav__list_item animation-slide-top-fade-in"><a href="#" data-overlay-type="top_menu_active" data-menu-type="about_menu_active" data-hash="about" class="nav__list_link js-open-overlay js-set-history js-render-me">About</a></li>
-            <li class="nav__list_item animation-slide-top-fade-in"><a href="#" data-overlay-type="top_menu_active" data-menu-type="projects_menu_active" data-hash="projects" class="nav__list_link js-open-overlay js-set-history js-render-me">Projects</a></li>
-            <li class="nav__list_item animation-slide-top-fade-in"><a href="https://www.medium.com/@rdimascio/" target="_blank" data-overlay-type="top_menu_active" data-menu-type="chat_menu_active" data-hash="blog" class="nav__list_link">Blog</a></li>
+            <li class="nav__list_item animation-slide-top-fade-in"><a href="#" data-overlay-type="top_menu_active" data-menu-type="about_menu_active" data-hash="about" class="nav__list_link js-open-overlay js-set-history js-render-me">about</a></li>
+            <li class="nav__list_item animation-slide-top-fade-in"><a href="#" data-overlay-type="top_menu_active" data-menu-type="projects_menu_active" data-hash="projects" class="nav__list_link js-open-overlay js-set-history js-render-me">portfolio</a></li>
+            <li class="nav__list_item animation-slide-top-fade-in"><a href="https://www.medium.com/@rdimascio/" target="_blank" class="nav__list_link">blog</a></li>
           </ul>
         </nav>
         <div class="main_screen_content">
-          <div class="main_company_info_box"><span class="main_company_info_text"><span class="main_company_info_text_line animation-slide-top-fade-in delay">Hey! 👋 I'm Ryan DiMascio</span><br><span class="main_company_info_text_line animation-slide-top-fade-in delay--big highlight-green">ui/ux designer &</span><br><span class="main_company_info_text_line animation-slide-top-fade-in delay--giant highlight-pink">frontend developer</span><br><span class="main_company_info_text_line animation-slide-top-fade-in delay--max highlight-last">how can I help?</span><span class="main_company_info_text_line last animation-slide-top-fade-in delay--max-cta">how can I help?</span></span>
+          <div class="main_company_info_box"><span class="main_company_info_text"><span class="main_company_info_text_line animation-slide-top-fade-in delay">I'm Ryan 👋</span><br><span class="main_company_info_text_line animation-slide-top-fade-in delay--big highlight-green">ui/ux designer &</span><br><span class="main_company_info_text_line animation-slide-top-fade-in delay--giant highlight-pink">frontend developer</span><br><br>
+            <!-- <span class="main_company_info_text_line animation-slide-top-fade-in delay--max highlight-last"></span> -->
+            <!-- <span class="main_company_info_text_line last animation-slide-top-fade-in delay--max-cta">how can I help?</span></span> -->
+          <span class="main_company_info_text_line last animation-slide-top-fade-in delay--max-cta"><a href="#" data-hash="projects" data-overlay-type="top_menu_active" data-menu-type="projects_menu_active" class="button js-open-overlay js-set-history js-render-me">portfolio</a> &nbsp; <a href="mailto:ryan@dimasc.io" target="_blank" class="button">let's chat</a></span>
 <!--             <div class="main_slider_dots">
               <div class="main_slider_sliding_dot js-sliding-dot state-active-dot-1 animation-growing animation-growing--top delay"></div>
               <div data-case-index="4" class="main_slider_dots_item js-main-slider-dot animation-fade-in-cascade"></div>
@@ -107,50 +120,60 @@
           <!--  seen only on mobiles-->
           <div class="main_cases_box">
             <div data-case-index="4" data-hash="san-francisco" class="main_case_item js-set-history js-open-case animation-slide-left-fade-in animation-slide-left-fade-in--big">
-              <div style="background-image:url(img/pictures/cases/sf/0_thumb_1.jpg)" class="main_case_pic"></div>
-              <div class="main_case_title_box"><span class="main_case_learn_more">Learn more</span></div>
-              <h2 class="main_case_title">San Francisco</h2>
+              <div style="background-image:url(img/pictures/cases/web-hacks/web-hacks--home.png)" class="main_case_pic"></div>
+              <div class="main_case_title_box"><span class="main_case_learn_more">learn more</span></div>
+              <h2 class="main_case_title">web hacks</h2>
             </div>
             <div data-case-index="11" data-hash="paris" class="main_case_item js-set-history js-open-case animation-slide-left-fade-in animation-slide-left-fade-in--big">
-              <div style="background-image:url(img/pictures/cases/paris/00_thumb.jpg)" class="main_case_pic"></div>
-              <div class="main_case_title_box"><span class="main_case_learn_more">Learn more</span></div>
-              <h2 class="main_case_title">Paris</h2>
+              <div style="background-image:url(img/pictures/cases/brand-swag/brand-swag--home.png)" class="main_case_pic"></div>
+              <div class="main_case_title_box"><span class="main_case_learn_more">learn more</span></div>
+              <h2 class="main_case_title">brand swag</h2>
             </div>
           </div>
         </div>
         <footer class="footer">
           <ul class="footer__social_list">
-            <li class="footer__social_item animation-slide-bottom-fade-in"><a href="https://linkedin.com/in/ryandimascio/" target="_blank" class="footer__social_link footer__social_link--linkedin"></a></li>
-            <li class="footer__social_item animation-slide-bottom-fade-in"><a href="https://twitter.com/ryandmas/" target="_blank" class="footer__social_link footer__social_link--twitter"></a></li>
+            <li class="footer__social_item animation-slide-bottom-fade-in"><a href="https://www.linkedin.com/in/ryandimascio/" target="_blank" class="footer__social_link footer__social_link--linkedin"></a></li>
+            <li class="footer__social_item animation-slide-bottom-fade-in"><a href="https://twitter.com/dimasc_io/" target="_blank" class="footer__social_link footer__social_link--twitter"></a></li>
             <li class="footer__social_item animation-slide-bottom-fade-in"><a href="https://github.com/rdimascio/" target="_blank" class="footer__social_link footer__social_link--github"></a></li>
           </ul>
           <ul class="footer__lang_list">
-            <li class="footer__lang_item animation-slide-bottom-fade-in"><a href="" data-overlay-type="bottom_menu_active" data-hash="contacts" class="footer__lang_link js-open-overlay js-set-history js-render-me">Let's Chat</a></li>
+            <li class="footer__lang_item"><a href="cv.pdf" target="_blank" data-overlay-type="bottom_menu_active" class="footer__lang_link">download my cv</a></li>
           </ul>
         </footer>
       </section>
+
+      <!-- Web Hacks -->
       <section data-case-index="4" class="case js-case">
         <nav class="nav"><a href="#" class="nav__logo_link"><span class="nav__logo_letter">d</span></a>
-          <button type="button" data-hash="" class="nav__control_btn nav__control_btn--close js-close-case js-set-history"><span class="nav__close_btn_text">Close</span></button>
+          <button type="button" data-hash="" class="nav__control_btn nav__control_btn--close js-close-case js-set-history"><span class="nav__close_btn_text">close</span></button>
         </nav>
         <div class="case_curtain">
           <div class="case_curtain__content_box js-case-content-box">
             <noscript class="js-img-hider"><img src="img/pictures/cases/sf/01.jpg"><img src="img/pictures/cases/sf/02.jpg"><img src="img/pictures/cases/sf/03.jpg"><img src="img/pictures/cases/sf/04.jpg"><img src="img/pictures/cases/sf/05.jpg"></noscript>
           </div>
-          <button type="button" class="nav nav--next_project js-next-case"><span>Next project</span></button>
+          <button type="button" class="nav nav--next_project js-next-case"><span>next project</span></button>
         </div>
       </section>
+
+      <!-- Brand Swag -->
       <section data-case-index="11" class="case js-case">\
         <nav class="nav"><a href="#" class="nav__logo_link"><span class="nav__logo_letter">d</span></a>
-          <button type="button" class="nav__control_btn nav__control_btn--close js-set-history js-close-case" data-hash=""><span class="nav__close_btn_text">Close</span></button>
+          <button type="button" class="nav__control_btn nav__control_btn--close js-set-history js-close-case" data-hash=""><span class="nav__close_btn_text">close</span></button>
         </nav>
         <div class="case_curtain">
           <div class="case_curtain__content_box js-case-content-box">
             <noscript class="js-img-hider"><img src="img/pictures/cases/paris/01.jpg"><img src="img/pictures/cases/paris/02.jpg"><img src="img/pictures/cases/paris/03.jpg"><img src="img/pictures/cases/paris/04.jpg"><img src="img/pictures/cases/paris/05.jpg"></noscript>
           </div>
-          <button type="button" class="nav nav--next_project js-next-case"><span>Next Project</span></button>
+          <button type="button" class="nav nav--next_project js-next-case"><span>next project</span></button>
         </div>
       </section>
+
     </main>
+
+
+
+
+
   </body>
 </html>
