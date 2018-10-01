@@ -3226,7 +3226,8 @@ button {
     .projects__container {
       padding-left: 20px;
       padding-right: 20px; } }
-
+.lead_capture__project-link {
+  padding-top: 46px; }
 .project__link {
   float: left;
   margin-right: 4.70613vw;
