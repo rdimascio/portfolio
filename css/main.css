@@ -3159,8 +3159,9 @@ button {
     padding-left: 0 !important;
     padding-right: 0 !important; }
   .case_curtain__content_box img {
-    display: block;
     margin: auto;
+    padding: 6vh 0;
+    display: block;
     height: auto;
     width: auto; }
   .case_curtain__content_box p, .case_curtain__content_box div:not(.figure) {
